@@ -6,7 +6,7 @@ requests
 
 ## Install Instructions
 1. Checkout this repository (e.g. `git clone https://github.com/harnitsignalfx/site-collectd-plugin`) somewhere on your system accessible by collectd. The suggested location is `/usr/share/collectd/`
-2. Run the following command from the directory folder in Step 1 `sudo pip install -r requirements.txt`
+2. Run the following command from within the newly created folder (site-collectd-plugin) `sudo pip install -r requirements.txt`
 3. Create a configuration file or use the default one (10-site.conf) and place it under `/etc/collectd/managed_config/`
 
 
