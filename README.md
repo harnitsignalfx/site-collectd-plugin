@@ -6,8 +6,7 @@ Collectd Python plugin to find all matches of a regex on a site and return the f
 ## Install Instructions
 1. Checkout this repository somewhere on your system accessible by collectd. The suggested location is `/usr/share/collectd/`
 2. Run the following command from the directory folder in Step 1 `sudo pip install -r requirements.txt`
-3. Place the python file - sitecontent.py in an appropriate location such as `/usr/share/collectd/site-collectd-plugin`
-4. Create a configuration file or use the default one - 10-site.conf and place it under `/etc/collectd/managed_config/`
+3. Create a configuration file or use the default one (10-site.conf) and place it under `/etc/collectd/managed_config/`
 
 
 By default the configuration file tries to find the python file in the default location given under Step 1. But feel free to modify the location in Step 1 and make the same adjustment within the configuration file.
